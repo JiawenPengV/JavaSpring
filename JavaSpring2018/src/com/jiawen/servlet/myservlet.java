@@ -1,6 +1,8 @@
 package com.jiawen.servlet;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -26,8 +28,16 @@ public class myservlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//1. Create the data model and add it to the request object
+		String welcomeMessage[] = {"Welcome !", "This is Jiawen"};
+		request.setAttribute("MyWelcomeMessage", welcomeMessage);
+		
+		//2. Retrieve request dispacher
+		RequestDispatcher requestDispatcher = request.getRequestDispatcher("welcome.jsp");
+		
+		
+		//3. Forward the request to the view
+		requestDispatcher.forward(request, response);
 	}
 
 	/**
