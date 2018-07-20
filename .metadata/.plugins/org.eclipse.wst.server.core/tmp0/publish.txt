@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Wed Jul 18 17:48:47 PDT 2018
+#Thu Jul 19 13:37:22 PDT 2018
 org.eclipse.jst.jee.server\:JavaSpring=/home/jiawenpeng/Documents/Tomcat/apache-tomcat-8.5.32/wtpwebapps/JavaSpring
+org.eclipse.jst.jee.server\:JavaSpring2018=/home/jiawenpeng/Documents/Tomcat/apache-tomcat-8.5.32/wtpwebapps/JavaSpring2018

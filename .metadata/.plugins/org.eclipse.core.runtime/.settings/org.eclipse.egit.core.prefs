@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=/home/jiawenpeng/eclipse-workspace/JavaSpring/.git\:
-GitRepositoriesView.GitDirectories.relative=JavaSpring/.git\:
+GitRepositoriesView.GitDirectories=/home/jiawenpeng/eclipse-workspace/JavaSpring/.git\:/home/jiawenpeng/eclipse-workspace/.git\:
+GitRepositoriesView.GitDirectories.relative=JavaSpring/.git\:.git\:
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

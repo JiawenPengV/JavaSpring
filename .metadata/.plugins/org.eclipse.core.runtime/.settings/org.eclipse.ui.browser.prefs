@@ -1,4 +1,4 @@
 browser-choice=0
 browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
 eclipse.preferences.version=1
-internalWebBrowserHistory=http\://localhost\:8080/JavaSpring/myservlet|*|http\://localhost\:8080/|*|http\://localhost\:8080|*|
+internalWebBrowserHistory=file\:/home/jiawenpeng/eclipse-workspace/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1532044347260/index.html|*|file\:/home/jiawenpeng/software/jee-photon/eclipse/../../../.p2/pool/plugins/org.springsource.ide.eclipse.commons.gettingstarted_3.9.5.201807030629-RELEASE/resources/welcome/index.html|*|file\:/home/jiawenpeng/eclipse-workspace/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1532039506449/index.html|*|http\://localhost\:8080/JavaSpring2018/myservletNew|*|http\://localhost\:8080/JavaSpring2018/myservlet|*|http\://localhost\:8080/JavaSpring2018/welcome.jsp|*|http\://localhost\:8080/JavaSpring/myservlet|*|http\://localhost\:8080/|*|http\://localhost\:8080|*|
