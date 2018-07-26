@@ -17,7 +17,7 @@ public class MessageGeneratorImpl implements MessageGenerator {
 
     // == constructor ==
 
-
+   //use game object
     public MessageGeneratorImpl(Game game) {
         this.game = game;
     }

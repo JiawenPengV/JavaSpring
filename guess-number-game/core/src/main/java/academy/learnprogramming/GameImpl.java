@@ -26,6 +26,8 @@ public class GameImpl implements Game {
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
+
+    //game uses the number generator
     // == constructor ==
     @Autowired
     public GameImpl(NumberGenerator numberGenerator, @GuessCount int guessCount) {
